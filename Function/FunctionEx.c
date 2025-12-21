@@ -1,7 +1,8 @@
-#include <stdio.h> 
+#include <stdio.h>
 #include <string.h>
 
-void happyBirthday(char name[], int age){
+void happyBirthday(char name[], int age)
+{
     printf("\nHappy birthday to you!");
     printf("\nHappy birthday to you!");
     printf("\nHappy birthday dear %s!", name);
@@ -9,7 +10,8 @@ void happyBirthday(char name[], int age){
     printf("\nYou are %d years old!\n", age);
 }
 
-int main() {
+int main()
+{
 
     // function = A reusable section of code that can be invoked "called"
     //                    Arguments can be sent to a function so that it can use them
