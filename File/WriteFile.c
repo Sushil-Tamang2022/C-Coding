@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
     // WRITE A FILE
 
@@ -8,7 +9,8 @@ int main() {
 
     char text[] = "BOOTY BOOTY BOOTY\nROCKIN' EVERYWHERE!";
 
-    if(pFile == NULL){
+    if (pFile == NULL)
+    {
         printf("Error opening file\n");
         return 1;
     }
